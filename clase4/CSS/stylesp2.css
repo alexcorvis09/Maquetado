@@ -1,0 +1,30 @@
+.mainContainer{
+
+}
+
+.header{
+    background-color: rgb(106, 179, 106);
+    text-align: center;
+    padding: 15px;
+}
+
+.aside{
+    background-color: orange;
+    text-align: center;
+    width: 25%;
+    height: 75%;
+}
+
+.aside2{
+
+}
+
+main{
+    background-color: salmon;
+    top: 50px;
+    left: 100px;
+}
+
+.footer{
+    
+}

@@ -9,23 +9,38 @@
                 color: red;
                 text-decoration: underline;
             }
+            p {
+                color: green;
+            }
         </style>
         <!--hoja de estilos externos-->
         <link rel="stylesheet" href="./css/styles.css"/>
     </head>
     <body>
-        <h1 style="color: blueviolet; font-size: 40px;">Práctica CSS</h1>
+        <h1 style="color: blueviolet; font-size: 20px;">Práctica CSS</h1>
         <p>
             Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
             Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
         </p>
-        <p>
+        <!--Selectores de clase-->
+        <p class="parrafoAzul">
+            Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, 
+            sunt in culpa qui officia deserunt mollit anim id est laborum."
+        </p>
+        <!--Selectores de ID-->
+        <p id="parrafoAmarillo">
             Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, 
             sunt in culpa qui officia deserunt mollit anim id est laborum."
         </p>
         <ul>
             <li>Elemento1</li>
-            <li>Elemento2</li>
+            <li class="parrafoAzul">Elemento2</li>
         </ul>
+        <div>
+            <a href="#">Enlace1</a>
+        </div>
+        <div class="contenedorNegro">
+            <a href="#">Enlace2</a>
+        </div>
     </body>
 </html>

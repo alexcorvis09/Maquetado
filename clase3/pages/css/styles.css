@@ -1,0 +1,92 @@
+body{
+    font-family: monospace, sans-serif;
+}
+
+/*Selector Hermano*/
+
+#selectorHermano h3 + p {
+    color:brown;
+    font-size: 28px;
+}
+
+
+/* Selector hermano general*/
+#selectorHermanoGeneral h5 ~ button {
+    background-color: blue;
+    color: aliceblue
+}
+
+#selectorHijo > p {
+    text-decoration: underline;
+    font-style: italic;
+}
+
+/*Selector atributo*/ 
+a[href="https://google.com"] {
+    color: green;
+}
+
+input [type="text"]{
+   width: 400px; 
+   border-radius: 10px;
+   margin: 20px;
+}
+
+#selectorHermano,
+#selectorHermanoGeneral,
+#selectorHijo,
+#selectorAtributo {
+    background-color: grey;
+    width:600px;
+    margin: 20px;
+    padding: 20px;
+
+}
+
+.btn {
+    padding: 10px;
+    background-color: transparent;
+    border: 1px solid lightgray;
+    color:lightskyblue;
+    cursor:pointer;
+}
+
+.btn:hover{
+    background-color: grey;
+    color: white;
+}
+
+/*pseudoenlaces*/
+
+a:visited{
+    color: green;
+}
+
+a:link{
+    color:lightgreen;
+}
+
+a:active{
+    color: yellow;
+    text-decoration: none;
+}
+
+.listaCajas li:last-child{
+    background-color: lightcoral;
+    height: 80px;
+    width: 80px;
+    color:white;
+}
+
+.listaCajas li:nth-child(3){
+    width:200px;
+}
+
+.listaCajas li:first-child {
+    background-color: wheat;
+    color:salmon
+}
+
+.listaCajas li:nth-last-child(2){
+    border-radius: 100%;
+}

@@ -2,3 +2,36 @@ ul {
     list-style: none;
     font-size: 10px;
 }
+
+/*seleccionar mediante el selector de clase*/
+.parrafoAzul{
+    color: blue;
+    font-weight: 800;
+    font-size: 28px;
+}
+
+/*seleccionar mediante el selector de ID*/
+#parrafoAmarillo{
+    color: yellowgreen;
+    font-size: 32px;
+}
+
+div{
+    border: 1px solid red;
+    width: 160px;
+    height: 50px;
+}
+
+.contenedorNegro {
+    padding: 20px;
+    padding: 10px 50px;
+    padding: 20 px 40px 60px 15px;
+}
+div.contenedorNegro {
+    background-color:hotpink;
+    color: white;
+}
+
+div.contenedorNegro a{
+    color:white
+}
